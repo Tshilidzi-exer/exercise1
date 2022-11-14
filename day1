@@ -2,10 +2,10 @@ DockerFile:
 
 FROM ubuntu
 WORKDIR /Slits
-RUN apt-get install C++
+RUN apt-get install C#
 
 ----------------------
-docker build -t ubuntu:v1 .
+docker build -t Ubuntu:v1 .
 ------------------------
 Create Container:
- docker build -t ubuntu:v1 .
+ docker build -t Ubuntu:v1 .
